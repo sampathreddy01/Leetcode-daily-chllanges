@@ -18,4 +18,3 @@ class Solution(object):
             result += arr[j] * (len(arr) - j) * (j - k)
 
         return result % MOD
-            
