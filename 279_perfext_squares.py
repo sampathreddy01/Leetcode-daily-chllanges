@@ -11,4 +11,3 @@ class Solution(object):
             dp[i] = min_val
         print(dp)
         return dp[n]
-        
