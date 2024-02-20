@@ -12,8 +12,6 @@ class Solution(object):
                         size=dp[j]
                         index=j
         max_val=nums[index]
-        # print(dp)
-        # print(index,max_val)
         res=[]
         for i in range(index, -1, -1):
             if max_val % nums[i] == 0 and dp[i] == size:
